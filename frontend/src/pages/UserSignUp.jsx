@@ -5,7 +5,7 @@ import { UserDataContext } from '../context/UserContext'
 
 
 
-const UserSignup = () => {
+const UserSignUp = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [firstName, setFirstName] = useState('')
@@ -120,4 +120,4 @@ const UserSignup = () => {
   )
 }
 
-export default UserSignup
+export default UserSignUp
