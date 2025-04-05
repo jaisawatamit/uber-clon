@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import UserLogin from './pages/UserLogin'
 import UserLogout from './pages/UserLogout'
-import UserSignup from './pages/UserSignUp'
 import CaptainLogin from './pages/CaptainLogin'
 import CaptainLogout from './pages/CaptainLogout'
 import CaptainHome from './pages/CaptainHome'
@@ -13,6 +12,7 @@ import Start from './pages/Start'
 import UserProtectWrapper from './pages/UserProtectWrapper'
 import CaptainProtectWrapper from './pages/CaptainProtectWrapper'
 import Riding from './pages/Riding'
+import UserSignUp from './pages/UserSignUp'
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
         <Route path='/login' element={<UserLogin />} />
         <Route path='/riding' element={<Riding />} />
         <Route path='/captain-riding' element={<CaptainRiding />} />
-        <Route path='/signup' element={<UserSignup />} />
+        <Route path='/signup' element={<UserSignUp />} />
         <Route path='/captain-login' element={<CaptainLogin />} />
         <Route path='/captain-signup' element={<CaptainSignup />} />
         <Route path='/home' element={
